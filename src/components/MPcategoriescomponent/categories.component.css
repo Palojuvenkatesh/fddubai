@@ -1,0 +1,58 @@
+.Main-container{
+    background-color: #dcdcdc;
+    height: 500px;
+    margin-top: 10px;
+}
+.mpcategories-heading{
+    font-size: 33px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+}
+.mpcategories-heading::after{
+    position: absolute;
+    content:"";
+    display: block;
+    background-color: #228B22;
+    /* border: 1px solid blue; */
+    height: 3px;
+    width: 50px;
+    padding: 2px;
+    margin-top: 15px;
+    margin-left: 775px;
+   
+}
+
+.resutrant-heading{
+    font-size: 20px;
+    padding: 5px;
+    font-weight: bold;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.resutrant-heading:hover{
+    background-color: rgb(135, 195, 222);
+}
+
+.tlogo1{
+  height: 40px;
+  width: 40px;
+
+}
+@media only screen and (max-width: 767px) {
+    .Main-container{
+        height: 830px;
+    }
+}
+
+.categtext{
+    font-size: 20px;
+    padding: 15px;
+    font-weight: 10px;
+    font-family: sans-serif;
+    margin-left: 400px;
+    
+}
+

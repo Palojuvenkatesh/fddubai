@@ -1,0 +1,48 @@
+.footer{
+    background-color: #141414;
+    color: #919191;
+    
+}
+.fli{
+    list-style-type:square ;
+}
+.f-d{
+    margin: 50px;
+}
+.fli1{
+    list-style-type: none;
+}
+
+
+
+
+@media only screen and (max-width: 1024px) {
+    .f-d1 {
+      flex-direction: column;
+      
+    }
+    
+  }
+
+@media only screen and (max-width: 767px) {
+    .f-d {
+      width: 100%;
+    }
+  
+    .f-p1 {
+      padding: 0;
+    }
+    
+  
+    .footer h3 {
+      font-size: 1.5rem;
+    }
+  
+    .footer hr {
+      width: 50%;
+    }
+  
+    .f-d1 {
+      flex-direction: column;
+    }
+  }

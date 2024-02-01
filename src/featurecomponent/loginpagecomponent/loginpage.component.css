@@ -1,0 +1,30 @@
+.login-form-bg-container {
+    background-color: #f1f1f1;
+    padding: 18px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .login-as-user-container {
+    border-bottom: 2px solid #acabab;
+  }
+  .login-as-user-button {
+    background: none;
+    border: none;
+    color: #575656;
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    padding: 5px 18px;
+    text-align: center;
+  }
+  .login-is-it-user-container {
+    border-bottom: 2px solid #027eeb;
+  }
+  .login-is-it-user-button {
+    color: #027eeb;
+  }
+  
