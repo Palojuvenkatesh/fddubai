@@ -16,15 +16,15 @@ export function LoginPage(){
   return (
     <div className="login-form-bg-container">
       <div className="d-flex justify-content-center align-items-center mt-5 mb-3">
-        <div className="login-as-user-container login-is-it-user-container">
-          <button className="login-as-user-button login-is-it-user-button">
+        <div className="login-as-user-container login-is-it-user-container1">
+          <button className="login-as-user-button login-is-it-user-button1">
             Login As a User
           </button>
         </div>
         <div className="login-as-user-container">
           <button
             className="login-as-user-button"
-            onClick={() => navigate("/user-vendor")}
+            onClick={() => navigate("/vendor-login")}
           >
             Login As a Vendor
          </button>

@@ -25,7 +25,7 @@ export function Footercomponent() {
                                 <h3>Popular Cities</h3>
                                 <hr style={{color:"greenyellow"}}></hr>                                
                                 <ul className="f-p1">
-                                    <li className='fli'>Mumbau</li>
+                                    <li className='fli'>Mumbai</li>
                                     <li className='fli'>Pune</li>
                                     <li className='fli'>Hyderabad</li>
                                     <li className='fli'>Chennai</li>

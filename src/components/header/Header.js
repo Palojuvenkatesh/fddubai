@@ -31,7 +31,10 @@ const Header = () => {
               <span>My Account</span>
             </NavLink>
             <div>
+              <a href="/login">
               <button className="header-top-login-button">Signin/Signup</button>
+              </a>
+             
             </div>
           </div>
         </div>

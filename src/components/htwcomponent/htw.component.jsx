@@ -16,7 +16,8 @@ export function HowItWorks() {
                         </div>
                         <div>
                             <h3>Choose What To Do</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore consequuntur atque neque fugiat rem vitae sint.</p>
+                            <p>Search for activities based on your interests. For example, you could search for
+ "Tutor," "Resutrant," "Online Shopping," or any other activity you're interested in</p>
                         </div>
                     </div>
                 </div>

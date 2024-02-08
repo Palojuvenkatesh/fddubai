@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import './signup.component.css';
+import './signupvendor.component.css';
 import axios from "axios";
 
-export function Signup(){
+export function Signupvendor(){
     const history =useNavigate();
 
     const [username, setUsername]=useState('')
@@ -15,7 +15,7 @@ export function Signup(){
         e.preventDefault();
       
         try{
-              await axios.post("http://localhost:8000/signup",{
+              await axios.post("http://localhost:8000/signup-vendor",{
                 username,email,phonenumber,password
               })
               .then(res=>{
@@ -26,7 +26,7 @@ export function Signup(){
                 else if(res.data=="notexist"){
                   
                 alert("user signin succesfully")
-                history("/login")
+                history("/vendor-login")
                 
                 }
               })
@@ -51,7 +51,7 @@ export function Signup(){
 
                     alt="website logo"
                 /> */}
-                <p className="signup-logo-name">User Signup</p>
+                <p className="signup-logo-name">Vendor Signup</p>
             </div>
             <form className="signup-form-element" action="POST"> 
                 <div className="d-flex flex-column justify-content-center mt-2 mb-1">
@@ -81,8 +81,7 @@ export function Signup(){
                        onChange={(e)=>{setEmail(e.target.value)}}
                     />
 
-                    <p className="signup-required-
-text"></p>
+                    <p className="signup-required-text"></p>
 
                 </div>
                 <div className="d-flex flex-column justify-content-center mt-1 mb-1">
@@ -163,7 +162,7 @@ text"></p>
                     Already have an Account?{" "}
 
                     
-<Link to="/login">Signin</Link>
+<Link to="/vendor-login">Signin</Link>
                     
                
             </p>
